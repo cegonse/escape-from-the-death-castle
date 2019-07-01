@@ -1,0 +1,5 @@
+#!/bin/bash
+
+make clean
+make release
+optirun blastem $(pwd)/out/rom.bin
